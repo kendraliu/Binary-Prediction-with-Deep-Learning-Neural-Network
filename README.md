@@ -6,7 +6,7 @@
 ### The final neual network model
 | Model Architecture |
 |-------|
-| ![Model](/images/nn.svg) |
+| ![Model](/images/nn.png) |
 
 | Model Accuracy | Model Loss |
 |-------|-------|

@@ -18,7 +18,7 @@ The hyperparameters of the model and its results are shown in the images below.
 
 | Model Architecture | Activation Functions |
 |-------|-------|
-| ![Model](/images/nn.png) | ReLu→ReLu→Sigmoid |
+| ![Model](/images/nn.png) | ReLu → ReLu → Sigmoid |
 
 | Model Accuracy | Model Loss |
 |-------|-------|

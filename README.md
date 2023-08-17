@@ -4,15 +4,13 @@
 
 
 ### The final neual network model
-| Model Architecture | Model Accuracy | Model Loss |
-|-------|-------|-------|
-| ![Model](/images/nn.svg) | ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
-
-| item | image |
-|-------|-------|
+| Model Architecture |
+|-------|
 | Model Architecture | ![Model](/images/nn.svg) |
-| Model Accuracy | ![Model Accuracy](/images/accuracy.png) |
-| Model Loss | ![Model Loss](/images/loss.png) |
+
+| Model Accuracy | Model Loss |
+|-------|-------|
+| ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
 
 
 ### Variables used for the model

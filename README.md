@@ -1,9 +1,26 @@
 # Deep-learning-challenge-binary-classification
 
+
+
+
 ### The final neual network model
-| Model Accuracy | Model Loss |
-|-------|------|
-| ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
+| Model Architecture | Model Accuracy | Model Loss |
+|-------|-------|-------|
+| ![Model](/images/nn.svg) | ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
+
+### Variables used for the model
+- target variable: `IS_SUCCESSFUL` — whether the money used effectively
+- unused variables: `EIN` and `NAME` — identification columns, they are used for ID purposes for the dataset and not contributing factors
+- feature variables: all other variables 
+    - `APPLICATION_TYPE` — Alphabet Soup application type
+    - `AFFILIATION` — Affiliated sector of industry
+    - `CLASSIFICATION` — Government organization classification
+    - `USE_CASE` — Use case for funding
+    - `ORGANIZATION` — Organization type
+    - `STATUS` — Active status
+    - `INCOME_AMT` — Income classification
+    - `SPECIAL_CONSIDERATIONS` — Special considerations for application
+    - `ASK_AMT` — Funding amount requested
 
 
 ### Optimization attempts

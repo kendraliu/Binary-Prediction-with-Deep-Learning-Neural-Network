@@ -3,7 +3,7 @@
 ### Optimization attempts
 | #Trial | modify | modified (add/remove etc.) code |
 |--------|--------|---------|
-| 1 | first trial | `hidden_nodes_layer1 = 8 hidden_nodes_layer2 = 5`
+| 1 | first trial | `hidden_nodes_layer1 = 8<br>hidden_nodes_layer2 = 5`
 
 nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer1, activation="relu", input_dim = X_train_scaled.shape[1]))
 nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))

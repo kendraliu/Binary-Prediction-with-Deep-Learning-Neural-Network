@@ -8,7 +8,8 @@
 |-------|-------|-------|
 | ![Model](/images/nn.svg) | ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
 
-
+| item | image |
+|-------|-------|
 | Model Architecture | ![Model](/images/nn.svg) |
 | Model Accuracy | ![Model Accuracy](/images/accuracy.png) |
 | Model Loss | ![Model Loss](/images/loss.png) |

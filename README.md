@@ -1,5 +1,11 @@
 # Deep-learning-challenge-binary-classification
 
+### The final neual network model
+| Model Accuracy | Model Loss |
+|-------|------|
+| ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
+
+
 ### Optimization attempts
 Despite various changes made, there was virtually no improvement at all.
 

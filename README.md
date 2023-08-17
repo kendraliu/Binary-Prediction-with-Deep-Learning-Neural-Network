@@ -8,6 +8,12 @@
 |-------|-------|-------|
 | ![Model](/images/nn.svg) | ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
 
+
+| Model Architecture | ![Model](/images/nn.svg) |
+| Model Accuracy | ![Model Accuracy](/images/accuracy.png) |
+| Model Loss | ![Model Loss](/images/loss.png) |
+
+
 ### Variables used for the model
 - target variable: `IS_SUCCESSFUL` — whether the money used effectively
 - unused variables: `EIN` and `NAME` — identification columns, they are used for ID purposes for the dataset and not contributing factors

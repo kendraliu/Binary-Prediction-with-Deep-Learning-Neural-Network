@@ -16,9 +16,9 @@ The final model that was decided on was in fact the one in the first trial, with
 
 The hyperparameters of the model and its results are shown in the images below.
 
-| Model Architecture |
-|-------|
-| ![Model](/images/nn.png) |
+| Model Architecture | Activation Functions |
+|-------|-------|
+| ![Model](/images/nn.png) | First layer: ReLu<br>Second layer: ReLu<br>Output layer: Sigmoid |
 
 | Model Accuracy | Model Loss |
 |-------|-------|

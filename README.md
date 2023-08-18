@@ -24,6 +24,11 @@ The hyperparameters of the model and its results are shown in the images below.
 |-------|-------|
 | ![Model Accuracy](/images/accuracy.png) | ![Model Loss](/images/loss.png) |
 
+## Potential for Improvements
+- The changes in number of neurons and acitvation functions do not seem to have a big effect. The removal of outliers doesn't either. Future attempts may focused on re-selecting the input data for the training:
+    - Perhaps dropping more columns selectively may yield better results.
+    - PCA might be able to help with that, which wasn't used on the input data in this project.
+    - Adjusting the ratio of training and test data.
 
 ### Variables used for the model
 - target variable: `IS_SUCCESSFUL` — whether the money used effectively
@@ -38,7 +43,6 @@ The hyperparameters of the model and its results are shown in the images below.
     - `INCOME_AMT` — Income classification
     - `SPECIAL_CONSIDERATIONS` — Special considerations for application
     - `ASK_AMT` — Funding amount requested
-
 
 ### Optimization attempts
 Despite various changes made, including adding neurons and layers, changing activation functions, and modifying the input data for outlier removals and adjusting the bins, there was virtually no improvement from the accuracy of 73% in first trial. The accuracies of all the trials made were all around 72%-73%. The actual accuracies were not recorded because of the little changes.
@@ -56,8 +60,3 @@ For detailed changes made, see below table.
 | 5 | removed the third layer, changed the activation of the second layer to "tanh" | `#hidden_nodes_layer3 = 10`<br>`nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="tanh"))` |
 | 6 | decreased neurons in second layer, changed the activation of the second layer back to "relu" | `hidden_nodes_layer2 = 30`<br>`nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation="relu"))` |
 
-## Potential for Improvements
-- The changes in number of neurons and acitvation functions do not seem to have a big effect. The removal of outliers doesn't either. Future attempts may focused on re-selecting the input data for the training:
-    - Perhaps dropping more columns selectively may yield better results.
-    - PCA might be able to help with that, which wasn't used on the input data in this project.
-    - Adjusting the ratio of training and test data.

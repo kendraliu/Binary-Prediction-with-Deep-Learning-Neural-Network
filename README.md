@@ -30,6 +30,7 @@ The hyperparameters of the model and its results are shown in the images below.
     - PCA might be able to help with that, which wasn't used on the input data in this project.
     - Adjusting the ratio of training and test data.
 
+## Training
 ### Variables used for the model
 - target variable: `IS_SUCCESSFUL` — whether the money used effectively
 - unused variables: `EIN` and `NAME` — identification columns, they are used for ID purposes for the dataset and not contributing factors

@@ -1,4 +1,4 @@
-# Deep-learning-challenge-binary-classification
+# Deep learning challenge: Binary Classification with Neural Network
 
 ### Overview
 This neural network model aims to help the non-profit foundation Alphabet Soup determine funding applicants with the best chnance in success.

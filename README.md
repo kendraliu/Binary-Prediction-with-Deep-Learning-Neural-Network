@@ -60,3 +60,4 @@ For detailed changes made, see below table.
 - The changes in number of neurons and acitvation functions do not seem to have a big effect. The removal of outliers doesn't either. Future attempts may focused on re-selecting the input data for the training:
     - Perhaps dropping more columns selectively may yield better results.
     - PCA might be able to help with that, which wasn't used on the input data in this project.
+    - Adjusting the ratio of training and test data.
